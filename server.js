@@ -18,7 +18,7 @@ app.use(cookieParser()); // ✅ must be BEFORE routes
 
 app.use(
   cors({
-    origin: "https://events-frontend-topaz.vercel.app/",
+    origin: "*",
     credentials: true,
   })
 );
